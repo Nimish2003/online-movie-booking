@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stlye_event.css">    
+<title>Event Booking</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand- bg-dark navbar-dark">
+        <div class="container-fluid"></div>
+        <div class="header__logo">
+           <a href="./index.php"><img src="image/logo1.jpg" alt=""></a>      
+           width="210" 
+           height="56.3"> 
+        </div> 
+
+         
+         
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+           <div class="col-lg-10 col-md-8">
+            <a href="index.php" class="btn btn-dark">Home</a>                  
+            <a href="feedback.php" class="btn btn-dark">Feedback</a> 
+            <a href="about.php" class="btn btn-dark">About us</a> 
+            <a href="contact.php" class="btn btn-dark">Contact us</a> 
+              </div>
+      </div>
+          
+     
+    </div>
+        </div>
+     </nav>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<h1>Movie Theater Booking Form</h1>
+<form method="POST" action="booking.php">
+    <label for="event_name">Event Name:</label>
+    <input type="text" name="event_name" required><br><br>
+    <label for="event_date">Event Date:</label>
+    <input type="date" name="event_date" required><br><br>
+    <label for="event_time">Event Time:</label>
+    <input type="time" name="event_time" required><br><br>
+    <label for="num_attendees">Number of Attendees:</label>
+    <input type="number" name="num_attendees" min="1" required><br><br>
+    <label for="contact_name">Contact Name:</label>
+    <input type="text" name="contact_name" required><br><br>
+    <label for="contact_email">Contact Email:</label>
+    <input type="email" name="contact_email" required><br><br>
+    <label for="contact_phone">Contact Phone:</label>
+    <input type="tel" name="contact_phone" required><br><br>
+    <input type="submit" name="submit" value="Submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* Body styles */
+body {
+    font-family:"Nunito Sans", sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Submit button styles */
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover effect */
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
